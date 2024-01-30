@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    box-sizing: border-box;    
+}
+.aclonica-regular {
+    font-family: "Aclonica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+header {
+text-align: center; 
+font-size: 25px;
+font-family: "Aclonica";
+background-color: rgb(4, 46, 4); 
+position: fixed;
+width: 100%;
+z-index: 2;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    background-color:rgb(45, 138, 45) ;
+}
+td a {
+    text-decoration: none;
+    color: lightgreen;
+}
+td a:hover {
+    color: black;
+}
+table {
+    width: 100%;
+    border: 2px solid darkgreen;
+    border-collapse: collapse;
+}
+tr, td {
+    border: 2px solid darkgreen;
+    font-size: 17px;
+}
+div {
+    background-color: darkgreen;
+}
+ main {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(5, 61, 5);
+    margin-top: auto;
+    color: black;
+    font-size: larger;
+    margin-left: 15%;
+    margin-right: 15%;
+ }
+h2 {
+    font-size: 40px;
+}
+ body {
+    font-size: 20px;
+    background-color: rgb(5, 61, 5);
+ }
+ p {
+    text-align: left;
+     bottom: 1px;
+    font-size: 16px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 177px;
+    background-color: lightgreen;
+ }
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-align: right;
+ }
+ a:hover {
+    color: rgb(68, 128, 60);
+ }
+ #leftbar {
+    position: absolute;
+    left: 1px;
+    top: auto;
+    width: fit-content;
+    min-height: 84%;
+    text-align: right;
+    background-color: rgb(3, 48, 3);
+    font-family: "Aclonica";
+    text-decoration: none;
+    box-sizing: border-box;
+ }
+ #rightbar {
+    position: absolute;
+    right: 1px;
+    top: auto;
+    width: 250px;
+    min-height: 60%;
+    text-align: right;
+    text-decoration: none;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: left;
+    background-color: rgb(3, 48, 3);
+    color: lightgreen;
+ }
+ h2 {
+    font-size: 25px;
+    color: lightgreen;
+ }
+
+ #nextpage1 {
+   color: lightgreen;
+ }
+ #nextpage2 {
+   color: lightgreen;
+ }
+ #nextpage3 {
+   color: lightgreen;
+ }
+ #tbd {
+    position: relative;
+    height: 400px;
+    width: 450px;
+    margin: unset;
+ }
+
